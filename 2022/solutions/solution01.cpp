@@ -11,13 +11,13 @@ using namespace std;
 int main() {
     vector<int> inventoryOfElves;
     string line;
-    ifstream input("../2022/inputs/input01-1.txt");
+    ifstream input("../2022/inputs_uni/input01.txt");
     int currentElv = 0;
 
     inventoryOfElves.push_back(0);
     if (input.is_open()) {
         while (getline(input, line)) {
-            if (line == "") {
+            if (line.empty()) {
                 currentElv++;
                 inventoryOfElves.push_back(0);
                 continue;
@@ -26,7 +26,6 @@ int main() {
         }
         input.close();
     } else cout << "Unable to open file";
-    int maxCalories = 0;
     sort(inventoryOfElves.begin(), inventoryOfElves.end(), greater<>());
     cout << "Problem1: " << inventoryOfElves[0] << "\n";
     cout << "Problem2: " << inventoryOfElves[0] + inventoryOfElves[1] + inventoryOfElves[2] << "\n";
