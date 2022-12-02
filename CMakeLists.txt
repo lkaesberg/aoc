@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Day01 2022/solutions/solution01.cpp)
 add_executable(Day02 2022/solutions/solution02.cpp)
-add_executable(Day03 2022/solutions/solution01.cpp)
+add_executable(Day03 2022/solutions/solution03.cpp)
 add_executable(Day04 2022/solutions/solution01.cpp)
 add_executable(Day05 2022/solutions/solution01.cpp)
 add_executable(Day06 2022/solutions/solution01.cpp)

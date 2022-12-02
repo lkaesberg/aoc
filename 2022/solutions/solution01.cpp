@@ -11,7 +11,7 @@ using namespace std;
 int main() {
     vector<int> inventoryOfElves;
     string line;
-    ifstream input("../2022/inputs_uni/input01.txt");
+    ifstream input("../2022/inputs/input01.txt");
     int currentElv = 0;
 
     inventoryOfElves.push_back(0);
