@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.24)
 project(aoc)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Day01 2022/solutions/solution01.cpp)
 add_executable(Day02 2022/solutions/solution02.cpp)
 add_executable(Day03 2022/solutions/solution03.cpp)
-add_executable(Day04 2022/solutions/solution01.cpp)
+add_executable(Day04 2022/solutions/solution04.cpp)
 add_executable(Day05 2022/solutions/solution01.cpp)
 add_executable(Day06 2022/solutions/solution01.cpp)
 add_executable(Day07 2022/solutions/solution01.cpp)
