@@ -8,8 +8,8 @@ using namespace std;
 
 int main() {
     string line;
-    ifstream input("../2022/inputs/input06.txt");
-    int numberOfDistinctCharacters = 14;
+    ifstream input("../2022/inputs_uni/input06.txt");
+    int numberOfDistinctCharacters = 4;
     if (input.is_open()) {
         while (getline(input, line)) {
             for (int i = numberOfDistinctCharacters - 1; i < line.length(); ++i) {
